@@ -17,7 +17,7 @@ export function StepSuccess ({ onFeedbackRestartRequested }: StepSuccessProps) {
       <div className="flex flex-col items-center py-10 w-[304px]">
         <img src={successImageUrl} alt="Imagem com sucesso" className="w-6 h6" />
 
-        <span className="text-xl mt-2">Agradecemos o seu feedback!</span>
+        <span className="text-xl mt-2">Agradecemos o seu feedback! AAAA</span>
 
         <button
           onClick={onFeedbackRestartRequested}
